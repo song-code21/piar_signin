@@ -28,7 +28,9 @@ body {
 
 .container > .section-left {
     flex: 1;
-    background-image: url(../images/74885819c371e3b8b0296c42356072b0.jpeg);
+    background-image: url(../images/ea884ebb8f0a9.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .container > .section-right {
@@ -36,7 +38,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    border: 1px solid black;
     background:rgb(41, 41, 41);
     align-items: center;
 }
