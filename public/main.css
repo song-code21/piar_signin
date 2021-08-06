@@ -9,17 +9,17 @@ html, body {
     overflow: hidden;
 }
 
-body {
-    display: flex;   
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.container {
+    margin : 0 auto;
+    width : 40vw;
+    height : 70vw;
+    border: 1px solid black;
 }
 
-.container {
-    justify-content: center;
-    width : 700px;
-    height : 700px;
+.container > .section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     border: 1px solid black;
 }
 
