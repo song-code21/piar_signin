@@ -44,7 +44,8 @@ body {
 
 .container > .section-right > .welcomeText {
     color: rgb(233, 231, 231);
-    font-size: 1.3rem;
+    font-size: 16px;
+    font-family: 'Andada Pro', serif;
 }
 
 .container > .section-right input {
@@ -53,11 +54,35 @@ body {
     border-radius: 12px;
 }
 
+
 .container > .section-right > label {
     color: rgb(233, 231, 231);
-    height: 30px;
+    height: 20px;
+    padding-bottom: 20px;
 }
 
 .container > .section-right #check {
     width: 20px;
+    height: 20px;
+}
+
+.container > .section-right > .iconGroup {
+    list-style: none;
+    display: flex;
+}
+
+.container > .section-right > .iconGroup a {
+    text-decoration: none;
+    color: violet;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+.container > .section-right > .iconGroup a:hover {
+    font-size: 1.6rem;
+}
+
+.container > .section-right > p > a {
+    text-decoration: none;
+    color: violet;
 }
