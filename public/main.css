@@ -23,13 +23,14 @@ body {
     margin-top: 15vh;
     width : 80%;
     height : 70vh;
-    border: 1px solid black;
     display: flex;
-    background-color: aqua;
 }
 
 .container > .section-left {
     flex: 1;
+    background-image: url(../images/ea884ebb8f0a9.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .container > .section-right {
@@ -37,5 +38,26 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    border: 1px solid black;
+    background:rgb(41, 41, 41);
+    align-items: center;
+}
+
+.container > .section-right > .welcomeText {
+    color: rgb(233, 231, 231);
+    font-size: 1.3rem;
+}
+
+.container > .section-right input {
+    width: 300px;
+    height: 50px;
+    border-radius: 12px;
+}
+
+.container > .section-right > label {
+    color: rgb(233, 231, 231);
+    height: 30px;
+}
+
+.container > .section-right #check {
+    width: 20px;
 }
