@@ -1,29 +1,31 @@
 * {
-<<<<<<< HEAD
     margin : 0px;
     padding : 0px;
     box-sizing: border-box;    
 }
 
+html, body {
+    height : 100%;
+    overflow: hidden;
+}
+
 body {
     display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
-    flex-direction: row;
     justify-content: center;
-    align-content: center;
+    width : 700px;
+    height : 700px;
     border: 1px solid black;
-    display: flex;
 }
 
 .container > .section-right {
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     border: 1px solid black;
-=======
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
->>>>>>> 7619d120e99f2a713e1a44902b1de15c2a55fcc5
 }
