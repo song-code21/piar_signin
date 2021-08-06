@@ -1,4 +1,5 @@
 * {
+<<<<<<< HEAD
     margin : 0px;
     padding : 0px;
     box-sizing: border-box;    
@@ -20,4 +21,9 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     border: 1px solid black;
+=======
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+>>>>>>> 7619d120e99f2a713e1a44902b1de15c2a55fcc5
 }
