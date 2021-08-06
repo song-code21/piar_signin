@@ -38,7 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background:rgb(41, 41, 41);
+    background:#202021;
     align-items: center;
 }
 
@@ -51,7 +51,23 @@ body {
 .container > .section-right input {
     width: 300px;
     height: 50px;
-    border-radius: 12px;
+    padding : 10px;
+    border : none;
+    background-color: #303030;
+    color : #c1c1c1;
+}
+
+.container > .section-right input::placeholder {
+    background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png) ;
+    background-size: contain;
+    background-position: 1px center;
+    background-repeat: no-repeat;
+    text-indent: 25px;
+    color : #c1c1c1;
+}
+
+.container > .section-right input:focus {
+    outline-width: 0;
 }
 
 
