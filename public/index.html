@@ -15,19 +15,38 @@
         <section class="section-left"></section>
         <section class="section-right">
             <div class="welcomeText">SEB Full 33, welcome to the programming world!</div>
-            <input type="text" id="id" class="input" placeholder="Email">
-            <input type="password" id="password" class= "input" placeholder="Password">
-            <label>아이디를 기억하시겠습니까? 
-                <input type="checkbox" name="reserveInfo" id="check">
-            </label>
+            <div class="id-group">
+                <input type="text" id="id" class="input id-nomal id-red id-green" placeholder="UserId">
+                <div class="failure-message hide">아이디는 네글자 이상이어야 합니다.</div>
+                <div class="success-message hide">사용할 수 있는 아이디입니다.</div>
+            </div>
+            <div class="password-group">
+                <input type="password" id="password" class= "input password" placeholder="Password">
+                <div class="pw-success-message hide">사용할 수 있는 비밀번호입니다.</div>
+                <div class="pw-failure-message hide">비밀번호에 특수문자 !@#$%^&*가 포함되어야 합니다.</div>
+            </div>
+
+            <div class="check-group">
+                <input type="password" id="password-check" class= "input password-check" placeholder="Password-check">
+                <div class="mismatch-message hide">비밀번호가 일치하지 않습니다.</div>
+                <div class="match-message hide">비밀번호가 일치합니다.</div>
+            </div>
+            <button class="sign-in hide">sign-in</button>
+            <div class="not-ready">sign-in</div>
             <ul class="iconGroup">
                 <li><a href="#"><i class="fab fa-facebook"></i></a></li>
                 <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="#"><i class="fas fa-comment-dots"></i></a></li>
             </ul>
-            <p><a href="#">click for sign-in</a></p>
         </section>
+    </div>
+    <div class="check-page hide">
+        <p>입력하신 정보로 회원가입 하시겠습니까?</p>
+        <div class="check-page-btns">
+            <button class="yes-btn">예 <i class="far fa-check-circle"></i></button>
+            <button class="no-btn">돌아가기 <i class="fas fa-redo-alt"></i></button>
+        </div>
     </div>
     <script src="./script.js"></script>
     <script src="https://kit.fontawesome.com/963e0f0b2e.js" crossorigin="anonymous"></script>
